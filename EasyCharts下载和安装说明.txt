@@ -1,18 +1,46 @@
-EasyCharts������غͰ�װ˵����
+【安装前必看】EasyCharts插件下载和安装说明：
 
-�������ӣ�https://pan.baidu.com/s/1eREl5yM������������л����������������ļ���
+插件备用下载链接:https://pan.baidu.com/s/1LhUNcjQNIZe51YOdY-1TBQ     提取码:nm7f 
 
-�� ��װ���л�����
-    ��ѹ��Excel������л�����װ��.zip�����ֱ����С�dotNetFx40_Full_x86_x64.exe ���͡�vstor_redist.exe������������������װ�����У�����ʾϵͳ�еİ汾���������谲װ��
 
-�� ��װ�����
-	1. �ر�ɱ��������
-	2. ������ѹ��EasyCharts1.0.zip����
-	3. �Թ���Ա��������  "Excelͼ��exe��װ��\Excelͼ��exe��װ��.exe"����ʱ���ڰ�װ���ġ����ԡ������ü����Ժ͡��Թ���Ա�������д˳��򡱣���
 
-���������⣺
-	����޷�����windows installer���񣬲ο���http://jingyan.baidu.com/article/eb9f7b6da512c8869364e837.html	
-	
-�����κ�����������µ�ͼ�����󣬿�ͨ��QQ��ϵ��
-�Žܣ�2259450382
-Eric.Y��1034769071
+★安装运行环境（链接: https://pan.baidu.com/s/1DLzFZaNGHoKwGUheFgCWaQ    提取码: rndh）：
+1.Microsoft .Net Framework 4.0及更高
+2.Microsoft Visual Studio 2010 Tools for Office Runtime
+
+
+
+★★安装插件（严格安装视频教程安装，或按下面步骤安装）：
+1)务必关闭杀毒软件、XX安全卫士、XX管家等，否则无法进行正常的注册表添加；
+2)选中安装包右键，“以管理员身份运行”，选择路径安装；
+3）安装过程若提示缺少运行环境，则安装上面的2个运行环境
+3）打开Excel后，若弹出下图对话框，点“安装”即可。
+4）遇到安装问题请看下文
+
+
+
+★★★以下解决安装问题的方案参考自OneKeyTools :http://oktools.xyz
+A.安装时如果提示“已安装这个产品的另一个版本”，请到控制面板中卸载旧版后安装新版
+
+B.安装后打开Excel，若进行重新配置，且提示缺少文件时，请自行下载Office安装包重新安装Office，这个问题可能是您目前的Office版本文件不完整导致
+
+C.安装时若出现错误，英文提示中包含“handle”单词的，可尝试选中安装包后右键→属性→兼容性→以兼容模式运行这个程序。兼容模式可以挨个选择进行尝试
+
+D.安装时若提示“无法安装此解决方案，因为您尚未选择信任为其签名的发布者。如果您信任此发布者，请将证书添加到‘受信任的发布者’列表”。可打开Excel→文件→选项→信任中心→信任中心设置→加载项→去掉勾选“要求受信任的发布者签署应用程序加载项”→确定
+
+E.安装时提示“安装程序没有访问目录的权限，安装无法继续进行。请以管理员身份登录，或与您的系统管理员联系”。可选中安装包→右键→以管理员身份运行→安装。
+
+F.Win8系统安装插件过程中提示“调用RunScript时未标记在进展中”。可选中安装文件，然后右键→以管理员身份运行→安装。若还是无法解决，可按Win+R快捷键打开运行对话框→输入gpedit.msc并确定打开“本地组策略编辑器”→右侧选择“计算机配置”→Windows设置→安全设置→本地策略→安全选项→双击“用户账户控制：以管理员批准模式运行所有管理员”→设置为“已禁用”→确定→关闭编辑器→重启电脑→重新安装插件。
+
+G.打开Excel后没有看到EasyCharts选项卡，并且在开发工具→COM加载项中勾选插件后，提示“未加载。加载COM加载项时出现运行错误”。可在控制面板→卸载程序里卸载插件，然后重新安装时不要修改默认文件路径。若操作后还是出现该错误，可尝试安装Microsoft .NET Framework 4.0以上版本。若操作后再次出现该错误，可尝试安装Microsoft Visual Studio 2010 Tools for Office Runtime。
+
+H.打开Excel后没有看到EasyCharts选项卡，在开发工具→COM加载项中勾选插件后，提示“managed add-in loader未能初始化”。可尝试安装Microsoft Visual Studio 2010 Tools for Office Runtime。
+
+I.打开Excel后若弹出提示“此应用程序中的自定义功能将不起作用，原因是用于为EasyCharts插件_PPT的部署清单签名的证书或其位置不受信任。请向管理员寻求进一步帮助。”。可尝试在安装OK插件时不要修改默认路径
+
+J.打开Excel后没有看到EasyCharts选项卡，在开发工具→COM加载项中勾选插件后，却并没有提示加载错误。而在控制面板→卸载程序里只有一个Microsoft .NET Framework 4.0或4.5（通常应该有两个，第二个末尾带Client）。可在控制面板→卸载程序（程序和功能）里卸载旧的Microsoft .NET Framework 4.0或4.5，重启电脑后重新安装Microsoft .NET Framework 4.0或更高版本
+
+K.Excel中若没有“开发工具”选项卡。可打开Excel→文件→选项→自定义功能区→右侧勾选“开发工具”→确定。若使用的是Office 2007版，由于2007的开发工具中没有COM加载项功能，所以想勾选插件，可尝试：打开PPT→左上角Office图标→Excel选项→加载项→转到→勾选插件→确定
+
+L.卸载插件后，重新打开PPT若提示“下载file:///XXXXX/EasyCharts.PPT.vsto未成功。”可前往开发工具-COM加载项中，勾选插件后点删除。若该错误提示出现在安装插件时，可尝试卸载插件，重新安装到其它路径下。
+
