@@ -1,8 +1,8 @@
 # Excel图表插件：EasyCharts
 
-## 安装务必查看说明文档：《【安装前必看】EasyCharts插件下载和安装说明》
+## ★ 安装务必查看说明文档：《【安装前必看】EasyCharts插件下载和安装说明》
 
-# 插件简介
+### 插件简介
 EasyCharts是使用C#语言编写的一款Excel插件，主要用于数据可视化与数据分析，可以跟Excel教程《Excel数据之美》很好地配套使用。由于研究精力有限，本来想开发的众多功能也迟迟没有实现，所以现开源给大家进一步开发与使用，以造福更多Excel用户。如有问题，可以联系EasyCharts开发者微信：EasyCharts。EasyCharts插件主要实现的功能如下：
 
 - 图表风格的自动转换：使用Excel绘制图图表后，选择“背景风格”中的项目“R ggplot2”、“Python Seaborn”、“Matlab 2013” 、“Matlab 2014”、“Excel Simple”等图表风格，自动实现图表背景风格的设定与转换；
