@@ -1,4 +1,4 @@
-# Excel图表插件：EasyCharts （Excel Chart Plugin：EasyCharts）
+# Excel图表插件：EasyCharts
 
 ## 安装务必查看说明文档：《【安装前必看】EasyCharts插件下载和安装说明》
 
