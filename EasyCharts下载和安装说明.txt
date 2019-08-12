@@ -1,0 +1,18 @@
+EasyCharts插件下载和安装说明：
+
+下载链接：https://pan.baidu.com/s/1eREl5yM（含插件、运行环境、案例及帮助文件）
+
+① 安装运行环境：
+    解压“Excel插件运行环境安装包.zip”，分别运行“dotNetFx40_Full_x86_x64.exe ”和“vstor_redist.exe”；在这两个环境安装过程中，若提示系统中的版本更高则无需安装。
+
+② 安装插件：
+	1. 关闭杀毒软件；
+	2. 完整解压“EasyCharts1.0.zip”；
+	3. 以管理员身份运行  "Excel图表exe安装包\Excel图表exe安装包.exe"（有时需在安装包的“属性”中设置兼容性和“以管理员身份运行此程序”）。
+
+遇到的问题：
+	如果无法访问windows installer服务，参考：http://jingyan.baidu.com/article/eb9f7b6da512c8869364e837.html	
+	
+遇到任何问题或者有新的图表需求，可通过QQ联系：
+张杰：2259450382
+Eric.Y：1034769071
