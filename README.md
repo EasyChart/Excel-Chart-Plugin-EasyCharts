@@ -31,3 +31,15 @@ EasyCharts是使用C#语言编写的一款Excel插件，主要用于数据可视
 <p>
     <img src="https://github.com/Easy-Shu/EasyShu-WeChat/blob/master/WeChat.jpg" alt="微信公众号"  width="250" height="250">
 </p>
+
+## 引用
+如果这本书对你的科研图表绘制有用，也可引用该书：
+```
+@book{Zhang2016excel,
+  title={Beautiful Data Visualization of {Excel}- How to Make Academic and Business Charts},
+  author={Zhang, Jie},
+  isbn={9787121298905},
+  url={https://books.google.com.hk/books?id=l\_gyswEACAAJ},
+  year={2016},
+  publisher={Publishing House of Electronic Industry}
+}
